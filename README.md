@@ -78,6 +78,9 @@ Has paginated Categories and Tags. Markdown files will automatically convert ima
 To use the form, visit [FormSubmit.Co](https://formsubmit.co/). Locate the contact form in "content/contact.md", and update the form action with the email address you want on this line: **action="https://formsubmit.co/your@email.com" method="POST"**
 
 
+## To generate /public to upload to your website
+sudo hugo --gc --minify
+
 ## Credits
 4044ever - Original Theme
 https://github.com/4044ever/Hugo-Tailwind-3.0.git

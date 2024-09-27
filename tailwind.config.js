@@ -22,6 +22,13 @@ module.exports = {
           800: '#0E119E',
           900: '#0A0C6A'
         },
+        'nesodden': {
+          DEFAULT: '#EF4444',
+          50: '#FFFFFF',
+          100: '#6fc2bd',
+          200: '#5c819d',
+          300: '#F98B8B',
+        },
         'secondary': {
           DEFAULT: '#EC4899',
           50: '#FDEEF6',
