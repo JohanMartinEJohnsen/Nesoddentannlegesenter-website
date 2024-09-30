@@ -5,7 +5,7 @@ DefaultContentLanguage: no-nb
 enableEmoji: true
 enableGitInfo: true
 enableRobotsTXT: true
-canonifyURLs: true
+canonifyURLs: false
 paginate: 9
 darkmode_js:
   - assets/js/darkmode.js
@@ -75,8 +75,7 @@ params:
       - text: "Lokalene våre finner du i 2. etasje på Rehabsenteret. Adressen er Håkonskastet 5,1453 Bjørnemyr. Det er en stor parkeringsplass utenfor, med gratis parkering."
     links:
       - text: Meet our investors and advisors
-        url: "#"
-        image: "Nesoddentannlegesenter-website/images/logo/Logo-design(ondark).png"
+        image: "images/logo/Logo-design(ondark).png"
     logos:
       - identifier: a
         image: "images/logo/Logo-design(ondark).png"
