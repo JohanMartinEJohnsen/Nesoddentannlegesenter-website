@@ -1,4 +1,4 @@
-baseURL: "https://johanmartinejohnsen.github.io/"
+baseURL: "https://johanmartinejohnsen.github.io/Nesoddentannlegesenter-website/"
 title: Nesoddentannlegesenter
 languageCode: no-nb
 DefaultContentLanguage: no-nb
@@ -76,7 +76,7 @@ params:
     links:
       - text: Meet our investors and advisors
         url: "#"
-        image: "images/logo/Logo-design(ondark).png"
+        image: "Nesoddentannlegesenter-website/images/logo/Logo-design(ondark).png"
     logos:
       - identifier: a
         image: "images/logo/Logo-design(ondark).png"

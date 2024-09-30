@@ -98,7 +98,234 @@ menu:
       name: Contact
       url: /contact/
       weight: 50
+  categories:baseURL: "https://johanmartinejohnsen.github.io/"
+title: Nesoddentannlegesenter
+languageCode: no-nb
+DefaultContentLanguage: no-nb
+enableEmoji: true
+enableGitInfo: true
+enableRobotsTXT: true
+canonifyURLs: true
+paginate: 9
+darkmode_js:
+  - assets/js/darkmode.js
+enableInlineShortcodes: true
+
+markup:
+  goldmark:
+    extensions:
+      definitionList: true
+      footnote: true
+      linkify: true
+      linkifyProtocol: https
+      strikethrough: true
+      table: true
+      taskList: true
+      typographer:
+        apostrophe: '&rsquo;'
+        disable: false
+        ellipsis: '&hellip;'
+        emDash: '&mdash;'
+        enDash: '&ndash;'
+        leftAngleQuote: '&laquo;'
+        leftDoubleQuote: '&ldquo;'
+        leftSingleQuote: '&lsquo;'
+        rightAngleQuote: '&raquo;'
+        rightDoubleQuote: '&rdquo;'
+        rightSingleQuote: '&rsquo;'
+    parser:
+      attribute:
+        block: false
+        title: true
+      autoHeadingID: true
+      autoHeadingIDType: github
+      wrapStandAloneImageWithinParagraph: true
+    renderer:
+      hardWraps: false
+      unsafe: true
+      xhtml: false
+
+params:
+  author: "Nesodden Tannlegesenter"
+  authorimage: ../assets/images/logo/Logo-design (on dark).png
+  og_image: /images/tailbliss-cover.png
+  moto: "Tannbehandling med deg i sentrum"
+  description: "Tannlegene Hege Emberland, Mari Skaar Okstad, Anita Sommerstad og tannhelsesekretær Annette Stubberud ønsker deg velkommen til Nesodden tannlegesenter."
+  disable_theme_toggle: false
+  disable_stay_uptodate: false
+
+  p1:
+    heading: 'Fokus på et høyt faglig nivå'
+    image: "images/NesoddentannlegesenterBilder/_DSC3033.jpg"
+    content:
+      - text: "Nesodden tannlegesenter har lang erfaring på Nesodden. Vi er et veletablert team med fokus på samarbeid mellom tannleger, tannpleier, tannlegespesialister og tannhelsesekretærer, for å gi deg det aller beste innen tannbehandling. Vårt mål er å forebygge sykdommer og fremme en god munnhelse."
+      - text: "Vi har en høy faglig kompetanse og holder oss oppdaterte, noe som skaper rom for alt fra estetisk tannbehandling til akutthjelp. Du skal ha det beste, enten smilet ditt står i fokus eller du har smerter. Vi gir deg åpenhet og samtale i forkant av behandlingen og samtaleterapi ved tannlegeskrekk."
+      - text: "Vi ønsker å være din lokale “nærtannlege” der du skal føle omsorg og trygghet. Vår visjon er: "
+      - text: "Tannbehandling med deg i sentrum"
+  p2:
+    heading: "Din lokale 'nærtannlege'"
+    image: "images/NesoddentannlegesenterBilder/_DSC3001.jpg"
+    content:
+      - text: "Hos Nesodden tannlegesenter er det viktig for oss at du føler deg trygg og ivaretatt gjennom hele behandlingsprosessen. Vi tar oss tid til å forstå dine behov og bekymringer, og skreddersyr behandlingene slik at du alltid er komfortabel. Ved å kombinere moderne tannbehandling med en omsorgsfull tilnærming, sørger vi for at hver pasient får en behandling som er både trygg og effektiv."
+  p3:
+    heading: "Din lokale 'nærtannlege'"
+    image: "images/NesoddentannlegesenterBilder/_DSC3401.jpg"
+    content:
+    
+      - text: "Lokalene våre finner du i 2. etasje på Rehabsenteret. Adressen er Håkonskastet 5,1453 Bjørnemyr. Det er en stor parkeringsplass utenfor, med gratis parkering."
+    links:
+      - text: Meet our investors and advisors
+        url: "#"
+        image: "images/logo/Logo-design(ondark).png"
+    logos:
+      - identifier: a
+        image: "images/logo/Logo-design(ondark).png"
+        alt: "a"
+    
+  p4:
+    heading: "Hos oss møter du"
+    content:
+      - text: "Vi ser frem til å ta vare på din tannhelse."
+  p5:
+    heading: "Send oss en henvendelse"
+    content:
+      - text: "Trenger du en ny tannlege? Eller er det på tide med en tannlegetime? Vennligt fyll inn informasjonen til høyre, og vi kontaker deg for time."
+    action: "https://formsubmit.co/konatk@nesoddentannlegesenter.no"
+    labels: 
+      label1: "Navn"
+      label2: "E-mail addresse"
+      label3: "Telefonnummer"
+      label4: "Henvendelse"
+    placeholder: 
+      placeholder1: "Navn"
+      placeholder2: "E-mail addresse"
+      placeholder3: "Telefonnummer"
+      placeholder4: "Hva gjelder din henvendelse" 
+
+    button: "Send"
+
+  social_media:
+    github:
+      enabled: true
+      url: 'https://github.com/nusserstudios'
+    facebook:
+      enabled: true
+      url: 'https://facebook.com/nusserstudios'
+    instagram:
+      enabled: true
+      url: 'https://instagram.com/nusserstudios'
+    twitter:
+      enabled: true
+      url: 'https://twitter.com/nusserstudios'
+    
+
+menu:
+  main:
+    - identifier: priser
+      name: Prisliste
+      url: /behandlinger/
+      weight: 10
+    - identifier: aktuelt
+      name: Aktuelt
+      url: /aktuelt/
+      weight: 20
+    - identifier: bestill
+      pre: dropdown
+      name: Bestill time
+      weight: 30
+    - identifier: dropdown
+      pre: complexdropdown
+      name: Dropdown
+      weight: 40
+    - identifier: kontakt
+      name: Kontakt Osss
+      url: /kontakt/
+      weight: 50
   categories:
+    - identifier: prose
+      name: Prose
+      url: /prose/
+      weight: 10
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 20
+  dropdown:
+    - identifier: appearance
+      pre: stars # can be stars, comments or piechart
+      name: Appearance
+      post: "Easy customization"
+      url: "#"
+      weight: 10
+    - identifier: comments
+      pre: comments # can be stars, comments or piechart
+      name: Comments
+      post: "Check your latest comments"
+      url: "#"
+      weight: 20
+    - identifier: analytics
+      pre: piechart # can be stars, comments or piechart
+      name: Analytics
+      post: "Take a look at your statistics"
+      url: "#"
+      weight: 30
+  footer:
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 10
+    - identifier: blog
+      name: Blog
+      url: /categories/blog/
+      weight: 20
+    - identifier: news
+      name: News
+      url: /categories/news/
+      weight: 30
+    - identifier: prose
+      name: Prose
+      url: /prose/
+      weight: 40
+    - identifier: contact
+      name: Contact
+      url: /contact/
+      weight: 50
+
+
+taxonomies:
+  category: Categories
+  tag: Tags
+
+privacy:
+  disqus:
+    disable: false
+  googleAnalytics:
+    anonymizeIP: true
+    disable: false
+    respectDoNotTrack: false
+    useSessionStorage: false
+  instagram:
+    disable: false
+    simple: false
+  twitter:
+    disable: false
+    enableDNT: false
+    simple: false
+  vimeo:
+    disable: false
+    enableDNT: false
+    simple: false
+  youtube:
+    disable: false
+    privacyEnhanced: true
+
+
+module:
+  hugoVersion:
+    extended: true
+    min: "0.104.0"
+
+
     - identifier: prose
       name: Prose
       url: /prose/
