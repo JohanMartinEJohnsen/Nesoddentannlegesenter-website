@@ -191,10 +191,6 @@ menu:
       url: /contact/
       weight: 50
 
-markup:
-  goldmark:
-    renderer:
-      unsafe: true
 
 taxonomies:
   category: Categories
@@ -223,10 +219,6 @@ privacy:
     disable: false
     privacyEnhanced: true
 
-deployment:
-  targets:
-    name: "production"
-    URL: "gs://nesodden-tannlegesenter-website"
 
 module:
   hugoVersion:
