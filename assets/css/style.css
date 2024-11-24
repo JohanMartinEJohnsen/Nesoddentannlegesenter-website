@@ -188,6 +188,23 @@ table {
   /* 3 */
 }
 
+table th, table td {
+  text-align: left; /* Venstrejustering av innhold */
+  padding: 10px; /* Litt luft mellom cellene */
+}
+
+table th:nth-child(1), table td:nth-child(1) {
+  width: 30%; /* Angir bredde for første kolonne */
+}
+
+table th:nth-child(2), table td:nth-child(2) {
+  width: 50%; /* Angir bredde for andre kolonne */
+}
+
+table th:nth-child(3), table td:nth-child(3) {
+  width: 20%; /* Angir bredde for tredje kolonne */
+}
+
 /*
 1. Change the font styles in all browsers.
 2. Remove the margin in Firefox and Safari.

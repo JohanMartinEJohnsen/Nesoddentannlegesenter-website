@@ -89,7 +89,7 @@ params:
     heading: "Send oss en henvendelse"
     content:
       - text: "Trenger du en ny tannlege? Eller er det på tide med en tannlegetime? Vennligt fyll inn informasjonen til høyre, og vi kontaker deg for time."
-    action: "https://formsubmit.co/konatk@nesoddentannlegesenter.no"
+    action: "https://formsubmit.co/kontakt@nesoddentannlegesenter.no"
     labels: 
       label1: "Navn"
       label2: "E-mail addresse"
@@ -124,50 +124,7 @@ menu:
       name: Prisliste
       url: /behandlinger/
       weight: 10
-    - identifier: aktuelt
-      name: Aktuelt
-      url: /aktuelt/
-      weight: 20
-    - identifier: bestill
-      pre: dropdown
-      name: Bestill time
-      weight: 30
-    - identifier: dropdown
-      pre: complexdropdown
-      name: Dropdown
-      weight: 40
-    - identifier: kontakt
-      name: Kontakt Osss
-      url: /kontakt/
-      weight: 50
-  categories:
-    - identifier: prose
-      name: Prose
-      url: /prose/
-      weight: 10
-    - identifier: about
-      name: About
-      url: /about/
-      weight: 20
-  dropdown:
-    - identifier: appearance
-      pre: stars # can be stars, comments or piechart
-      name: Appearance
-      post: "Easy customization"
-      url: "#"
-      weight: 10
-    - identifier: comments
-      pre: comments # can be stars, comments or piechart
-      name: Comments
-      post: "Check your latest comments"
-      url: "#"
-      weight: 20
-    - identifier: analytics
-      pre: piechart # can be stars, comments or piechart
-      name: Analytics
-      post: "Take a look at your statistics"
-      url: "#"
-      weight: 30
+    
   footer:
     - identifier: about
       name: About
