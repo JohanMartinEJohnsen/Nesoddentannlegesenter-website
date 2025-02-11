@@ -89,7 +89,7 @@ params:
     heading: "Send oss en henvendelse"
     content:
       - text: "Trenger du en ny tannlege? Eller er det på tide med en tannlegetime? Vennligt fyll inn informasjonen til høyre, og vi kontaker deg for time."
-    action: "https://formsubmit.co/kontakt@nesoddentannlegesenter.no"
+    action: "https://formsubmit.co/baa5084549b47f4a80d7cd25eb4bcdd6"
     labels: 
       label1: "Navn"
       label2: "E-mail addresse"
