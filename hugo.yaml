@@ -48,20 +48,19 @@ markup:
 params:
   author: "Nesodden Tannlegesenter"
   authorimage: ../assets/images/logo/Logo-design (on dark).png
+  collosseum-logo: ../assets/images/logo/CT-logo-stående-blå-RGB.ai
   og_image: /images/tailbliss-cover.png
   moto: "Tannbehandling med deg i sentrum"
-  description: "Tannlegene Hege Emberland, Mari Skaar Okstad, Anita Sommerstad og tannhelsesekretær Annette Stubberud ønsker deg velkommen til Nesodden tannlegesenter."
+  description: "Fra 2. mars 2026 er vi en del av Colosseum Tannlege. For deg som pasient betyr det at du fortsatt vil møte de samme behandlerne og ansatte som før. "
   disable_theme_toggle: false
   disable_stay_uptodate: false
 
   p1:
-    heading: 'Fokus på et høyt faglig nivå'
+    heading: '75 klinikker over hele Norge.'
     image: "images/NesoddentannlegesenterBilder/_DSC3033.jpg"
     content:
-      - text: "Nesodden tannlegesenter har lang erfaring på Nesodden. Vi er et veletablert team med fokus på samarbeid mellom tannleger, tannpleier, tannlegespesialister og tannhelsesekretærer, for å gi deg det aller beste innen tannbehandling. Vårt mål er å forebygge sykdommer og fremme en god munnhelse."
-      - text: "Vi har en høy faglig kompetanse og holder oss oppdaterte, noe som skaper rom for alt fra estetisk tannbehandling til akutthjelp. Du skal ha det beste, enten smilet ditt står i fokus eller du har smerter. Vi gir deg åpenhet og samtale i forkant av behandlingen og samtaleterapi ved tannlegeskrekk."
-      - text: "Vi ønsker å være din lokale “nærtannlege” der du skal føle omsorg og trygghet. Vår visjon er: "
-      - text: "Tannbehandling med deg i sentrum"
+      - text: "Colosseum Tannlege er en av Norges ledende leverandører av tannhelsetjenester, med 75 klinikker over hele landet. Les mer på www.colosseumtannlege.no."
+     
   p2:
     heading: "Din lokale 'nærtannlege'"
     image: "images/NesoddentannlegesenterBilder/_DSC3001.jpg"
