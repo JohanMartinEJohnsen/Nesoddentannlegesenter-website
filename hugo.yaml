@@ -83,7 +83,7 @@ params:
   p4:
     heading: "Hos oss møter du"
     content:
-      - text: "Vi ser frem til å ta vare på din tannhelse."
+      - textx: "Vi ser frem til å ta vare på din tannhelse."
   p5:
     heading: "Send oss en henvendelse"
     content:
@@ -118,11 +118,7 @@ params:
     
 
 menu:
-  main:
-    - identifier: priser
-      name: Prisliste
-      url: /behandlinger/
-      weight: 10
+  
     
   footer:
     - identifier: about
