@@ -88,7 +88,7 @@ params:
     heading: "Timebestilling"
     content:
       - text: "Trenger du en ny tannlege? Eller er det på tide med en tannlegetime?"
-    action: "https://minside.colosseumtannlege.no/bestilltime/"
+    action: "https://minside.colosseumtannlege.no/bestilltime/colosseum-tannlege-nesodden-tannlege/"
     button: "Bestill time"
 
   social_media:
